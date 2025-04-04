@@ -1,34 +1,18 @@
+@import "../css/header.css";
+
 :root {
     --main-background: #000;
-    --secondary-background: #FFF;
+    --secondary-background: #FFFFFF;
     --primary: #FFBB00;
     --text: #B2B2B2;
-    --titles: #FFF;
+    --titles: #FFFFFF;
+    --mobile-links: #111111;
 }
 
 * {
     margin: 0;
     padding: 0;
     list-style: none;
-}
-
-header {
-    background: var(--main-background);
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 0;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menu {
-    display: flex;
-    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
