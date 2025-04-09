@@ -5,6 +5,7 @@
 
 .partners h2 {
     margin-bottom: 60px;
+    text-transform: lowercase;
 }
 
 .partners ul {

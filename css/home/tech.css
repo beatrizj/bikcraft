@@ -28,6 +28,7 @@
 .tech-content h2 {
     display: block;
     margin-bottom: 32px;
+    text-transform: lowercase;
 }
 
 .tech-content > p {
