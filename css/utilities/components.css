@@ -56,3 +56,31 @@
 .link:hover {
     color: var(--cor-0);
 }
+
+/*Título das páginas*/
+.title-bg {
+    background: var(--cor-11);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.title h1 {
+    text-transform: lowercase;
+}
+   
+.title p {
+    margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+    .title-bg {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .title p {
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
+}
