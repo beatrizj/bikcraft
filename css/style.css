@@ -33,3 +33,6 @@
 /*Contato*/
 @import "../css/contact/contact.css";
 @import "../css/contact/stores.css";
+
+/*Orçamento*/
+@import "../css/budget/budget.css";
