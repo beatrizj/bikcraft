@@ -120,8 +120,8 @@
     margin-top: 20px;
 }
 
-#input-bikcraft:checked ~ #budget-bikcraft,
-#input-insurance:checked ~ #budget-insurance {
+#bikcraft:checked ~ #budget-bikcraft,
+#insurance:checked ~ #budget-insurance {
     display: grid;
     gap: 20px;
 }
