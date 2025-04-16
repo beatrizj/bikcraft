@@ -51,14 +51,17 @@
     transform: rotate(180deg);
 }
 
+.js .faq dd {    
+    display: none;
+}
+
 .faq dd {
     padding-left: 20px;
     padding-top: 16px;
     max-width: 90%;
-    display: none;
 }
 
-.faq dd.active {
+.js .faq dd.active {
     display: block;
 }
 

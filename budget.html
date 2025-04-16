@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Orçamento | Bikcraft</title>
     <meta name="description" content="Orçamento." />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+
     <link rel="preload" href="./css/style.css" as="style" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,6 +15,9 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <script>
+      document.documentElement.classList.add('js')
+    </script>
   </head>
   <body id="budget">
     <header class="header-bg cor-12">
@@ -54,31 +59,16 @@
         <div class="budget-product">
           <h2 class="font-1-xs cor-5">Bikcraft ou Seguro?</h2>
 
-          <input
-            type="radio"
-            name="type"
-            value="bikcraft"
-            id="bikcraft"
-          />
+          <input type="radio" name="type" value="bikcraft" id="bikcraft" />
           <label for="bikcraft">Bikcraft</label>
 
-          <input
-            type="radio"
-            name="type"
-            value="insurance"
-            id="insurance"
-          />
+          <input type="radio" name="type" value="insurance" id="insurance" />
           <label for="insurance">Seguro</label>
 
           <div class="budget-content" id="budget-bikcraft">
             <h2 class="font-1-xs cor-5">Escolha a sua:</h2>
 
-            <input
-              type="radio"
-              name="product"
-              value="nimbus"
-              id="nimbus"
-            />
+            <input type="radio" name="product" value="nimbus" id="nimbus" />
             <label for="nimbus">Nimbus Stark <span>R$ 4999</span></label>
             <div class="budget-details">
               <ul class="font-1-xs cor-8">
@@ -114,12 +104,7 @@
               <img src="./img/bicicletas/magic.jpg" alt="" />
             </div>
 
-            <input
-              type="radio"
-              name="product"
-              value="nebula"
-              id="nebula"
-            />
+            <input type="radio" name="product" value="nebula" id="nebula" />
             <label for="nebula">Nebula Cosmic <span>R$ 3999</span></label>
             <div class="budget-details">
               <ul class="font-1-xs cor-8">
@@ -141,12 +126,7 @@
           <div class="budget-content" id="budget-insurance">
             <h2 class="font-1-xs cor-5">Escolha o plano:</h2>
 
-            <input
-              type="radio"
-              name="product"
-              value="silver"
-              id="silver"
-            />
+            <input type="radio" name="product" value="silver" id="silver" />
             <label for="silver">Prata <span>R$ 199</span></label>
 
             <input type="radio" name="product" value="gold" id="gold" />

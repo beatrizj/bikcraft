@@ -47,3 +47,8 @@ images.forEach((image) => {
         }        
     })
 })
+
+//Animation plugin
+if (window.SimpleAnime) {
+    new SimpleAnime()
+}
