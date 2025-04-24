@@ -89,3 +89,8 @@ cd bikcraft
 ## 👩‍💻 Author
 Developed by [Beatriz J](https://github.com/beatrizj) <br/>
 📫 Contact: [LinkedIn](https://www.linkedin.com/in/beatrizjanuario/) | [Email](mailto:beeatriz.js@gmail.com)
+
+---
+
+## 🏷️ Tags
+`#HTML` `#CSS` `#JavaScript` `#Frontend` `#WebDesign` `#ResponsiveDesign` `#UI/UX` `#PortfolioProject` `#Origamid`
