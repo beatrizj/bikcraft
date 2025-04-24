@@ -87,7 +87,7 @@ cd bikcraft
 ---
 
 ## 👩‍💻 Author
-Developed by [Beatriz J](https://github.com/beatrizj) <br/>
+Made with 💜 by [Beatriz J](https://github.com/beatrizj) <br/>
 📫 Contact: [LinkedIn](https://www.linkedin.com/in/beatrizjanuario/) | [Email](mailto:beeatriz.js@gmail.com)
 
 ---
